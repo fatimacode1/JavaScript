@@ -1,8 +1,7 @@
-/***************************************
- JavaScript Day 2 – Full Assignment
-***************************************/
+// JavaScript Day 2 – Full Assignment
 
-/* ========= Part A: Identifiers & Naming ========= */
+
+// Part A: Identifiers & Naming 
 
 // Problem 1 & 2 – Correct variable names
 let firstName = "Alice";
@@ -20,7 +19,7 @@ let firstPrize = 1000;
 let totalCost = 250;
 let userAgeFixed = 25;
 
-/* ========= Part B: Booleans & Data Types ========= */
+// Part B: Booleans & Data Types
 
 let emailAddress = "john@example.com";
 let isLoggedIn = true;
@@ -40,7 +39,7 @@ console.log(typeof x); // string
 x = true;
 console.log(typeof x); // boolean
 
-/* ========= Part C: Strings & Indexing ========= */
+// Part C: Strings & Indexing
 
 let language = "JavaScript";
 console.log(language[0]); // J
@@ -48,7 +47,7 @@ console.log(language[4]); // S
 console.log(language[language.length - 1]); // t
 console.log(language.length); // 10
 
-/* ========= Part D: Template Literals ========= */
+// Part D: Template Literals
 
 // String creation
 let message1 = "Hello World";
@@ -82,7 +81,7 @@ let hourOfDay = 14;
 let userName2 = "Bob";
 let greeting2 = `Good afternoon, ${userName2}! It's ${hourOfDay}:00.`;
 
-/* ========= Part E: Null & Undefined ========= */
+// Part E: Null & Undefined
 
 let scoreValue;
 console.log(scoreValue); // undefined
@@ -93,7 +92,7 @@ console.log(winner); // null
 let user = { name: "Alice" };
 console.log(user.age); // undefined
 
-/* ========= Part F: Comparison Operators ========= */
+// Part F: Comparison Operators
 
 console.log(10 > 5); // true
 console.log(3 < 2); // false
@@ -102,7 +101,7 @@ console.log(8 <= 10); // true
 console.log(7 != 7); // false
 console.log(15 > 20); // false
 
-/* ========= Part G: == vs === ========= */
+// Part G: == vs ===
 
 console.log(5 == 5); // true
 console.log(5 === 5); // true
@@ -122,7 +121,7 @@ console.log(temp > 25); // true
 let scoreCheck = 75;
 console.log(scoreCheck < 60); // false
 
-/* ========= Part H: String Comparison ========= */
+// Part H: String Comparison
 
 console.log('a' > 'A'); // true
 console.log('b' < 'c'); // true
@@ -139,7 +138,7 @@ if (Number(userInput) === 10) {
   console.log("Input is 10");
 }
 
-/* ========= Part I: Practical Challenges ========= */
+// Part I: Practical Challenges
 
 let userName3 = "Sarah";
 let hour = 9;
@@ -168,7 +167,7 @@ let lName = "Smith";
 let initials = `${fName[0]}.${mName[0]}.${lName[0]}.`;
 console.log(initials);
 
-/* ========= Part J: Debugging ========= */
+// Part J: Debugging
 
 let firstPlace = "Gold";
 let userNameFixed = "Alice";
@@ -188,7 +187,7 @@ if (Number(userInput2) === 25) {
   console.log("Input is incorrect");
 }
 
-/* ========= Bonus: Password Validator ========= */
+//Bonus: Password Validator 
 
 let password = "Pass123";
 
@@ -201,6 +200,3 @@ console.log("Password is long enough:", isLongEnough);
 console.log("Starts with uppercase:", startsWithUppercase);
 console.log("Ends with number:", endsWithNumber);
 
-/***************************************
- END OF ASSIGNMENT
-***************************************/
