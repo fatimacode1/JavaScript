@@ -1,0 +1,15 @@
+DAY 9 - MODERN ARRAY METHODS AND ES6 FEATURES
+
+Method means predefined code 
+1. push()
+2. pop()
+3. unshift()
+4. shift()
+5. slice()
+6. splice()
+7. reverse()
+8. math.PI()
+
+Iterate means looping one by one
+
+
